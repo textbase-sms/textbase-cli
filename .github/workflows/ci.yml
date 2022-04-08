@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build
-      - uses: actions-rs/cargo@v1.0.1
-      - with:
+        uses: actions-rs/cargo@v1.0.1
+        with:
           command: build
       
       - name: run
-      - uses: actions-rs/cargo@v1.0.1
-      - with:
+        uses: actions-rs/cargo@v1.0.1
+        with:
           command: run
