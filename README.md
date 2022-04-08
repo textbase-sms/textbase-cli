@@ -1,0 +1,2 @@
+# textbase-cli
+Textbase CLI
